@@ -1,0 +1,142 @@
+#main_logo{
+
+    width: 200px;
+    height: 100;
+
+}
+
+#timeC{
+    color:rgb(101, 242, 36);
+    margin-right:5px;
+
+}
+
+#slot-card{
+
+    position: absolute;
+    top: 600px;
+    left : 70%;
+
+}
+#slot-card-2{
+
+    position: absolute;
+    width: 450px;
+    height:520px;
+    top: 600px;
+    left : 10%;
+
+}
+
+
+#iot-image{
+
+    width:900px;
+    height: 700px;
+
+}
+
+
+b{
+
+    margin-right: 20px;
+    
+}
+
+#cardIn{
+
+    z-index: 1000;
+}
+
+#controlc{
+    z-index: 1000px !important;
+}
+
+#plane{
+
+    width:300px;
+    height:600px;
+    position: absolute;
+    top:380px;
+    left : 700px
+   
+    
+
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background: linear-gradient(135deg, #e9e4e4, #ffffff , #e8ece9 20%, #f1d5d5, #f3f3f3);
+    border-bottom-right-radius: 1000px;
+}
+.footer-container{
+
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    background: linear-gradient(135deg, #e9e4e4, #ffffff , #e8ece9 20%, #f1d5d5, #f3f3f3);
+    border-top-right-radius: 20px;
+}
+
+
+.address {
+
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+
+#iot{
+
+    font-family: 'Mooli', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+
+#iot_sub{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 18px;
+
+}
+
+@media (max-width: 600px){
+
+    #iot{
+
+        
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-align: center;
+    
+    }
+
+    #iot_sub{
+
+      
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        text-align: center;
+    
+    }
+
+    #book_now{
+
+        margin-left: 90px;
+
+    }
+
+
+}
+

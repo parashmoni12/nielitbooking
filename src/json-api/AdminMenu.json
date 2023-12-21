@@ -1,0 +1,118 @@
+[
+
+    {
+        
+        "id": 1,
+        "cat": "DASHBOARD",
+        "menus":[
+
+            {
+                "id":2,
+                "label":"Main",
+                "icon":"airplay",
+                "link":"modern",
+                "isDropDown":false
+                
+
+            },
+            {
+                "id":4,
+                "label" : "All Booking",
+                "icon": "list",
+                "link":"all-bookings"
+
+            },
+
+            {
+                "id":3,
+                "label": "Booking",
+                "icon":"menu_book",
+                "isDropDown":true,
+                "dropDownMenu":[
+
+                 
+                    {
+                        "id":5,
+                        "label" :"Confirmed",
+                        "icon": "recommend",
+                        "link":"confirmed-bookings"
+
+                    },
+                    {
+                        "id":6,
+                        "label" : "Pending",
+                        "icon": "pending",
+                        "link":"pending"
+
+                    },
+                    {
+                        "id":12,
+                        "label" : "Cancel",
+                        "icon": "cancel",
+                        "link":"cancel-booking"
+
+                    }
+                    
+
+
+                ]
+
+            },
+            {
+                "id":10,
+                "label":"Users",
+                "icon":"group",
+                "link":"users",
+                "isDropDown":false
+                
+
+            }
+
+        ]
+
+    },
+
+    {
+        
+        "id": 7,
+        "cat": "AUTHENTICATON",
+        "menus":[
+
+            
+            {
+                "id":11,
+                "label": "Add User",
+                "icon":"group_add",
+                "link": "add_instructor"
+
+
+            },
+            {
+                "id":8,
+                "label":"Reset Password",
+                "icon":"password",
+                "link":"forgot-password"
+
+            },
+            {
+                "id":9,
+                "label": "Logout",
+                "icon":"logout",
+                "link": "logout"
+
+
+            }
+
+        ]
+
+    }
+
+    
+
+
+
+
+
+
+
+]

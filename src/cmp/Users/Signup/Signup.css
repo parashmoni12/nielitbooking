@@ -1,0 +1,33 @@
+#form-box{
+
+    padding:200px;
+    padding-top: 0;
+    padding-left: 70px;
+}
+
+
+
+@media (max-width: 767px) {
+    /* Styles for small mobile devices in portrait orientation */
+    #form-box{
+
+        padding:30px;
+        padding-top: 0;
+        padding-left: 10px;
+        position: absolute;
+        left:10px;
+    }
+    
+    
+  }
+
+  /*
+  #file-hovver{
+
+    opacity: 0;
+    cursor: pointer;
+    
+  }
+  */
+
+  

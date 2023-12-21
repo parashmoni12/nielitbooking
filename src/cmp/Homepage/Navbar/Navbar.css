@@ -1,0 +1,32 @@
+
+@media (max-width: 600px) {
+
+    #main_logo{
+
+        margin-left: 10px;
+
+
+    }
+    
+
+}
+
+.nav_items{
+
+    color:black !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+#main-logo{
+
+    width: 100px;
+    height: 50px;
+
+
+}
+.lock_d{
+
+    margin-right: 20px !important;
+
+}

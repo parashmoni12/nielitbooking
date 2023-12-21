@@ -1,0 +1,73 @@
+#plane{
+
+  position: absolute;
+  height: 550px;
+  left : 700px;
+  top: 400px;
+ 
+}
+
+#timeC{
+  color:#65F224;
+}
+::-webkit-scrollbar{
+
+  width:  3px
+}
+::-webkit-scrollbar-track{
+
+  background: #f1f1f1;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+ background: #ddd;
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background: #ccc;
+}
+    
+
+      #modal-modal-titles{
+
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        letter-spacing: 4px;
+        text-align: center;
+
+      }
+      @media (max-width: 600px){
+
+
+        #timepicker{
+
+        
+          overflow-x: auto;
+          width: 260px;
+          margin-left: -30px;
+      
+        }
+
+        ::-webkit-scrollbar {
+          height: 3px; /* Width of the scrollbar */
+        }
+  
+        ::-webkit-scrollbar-track {
+          background: rgba(0, 0, 0, 0.1); /* Track color */
+        }
+  
+        ::-webkit-scrollbar-thumb {
+          background: rgba(18, 109, 214, 0.2); /* Thumb color */
+          border-radius: 5px; /* Rounded corners for the thumb */
+        }
+  
+        ::-webkit-scrollbar-thumb:hover {
+          background: rgba(0, 0, 0, 0.3); /* Hover state for the thumb */
+        }
+        
+       
+    
+     }

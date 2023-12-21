@@ -1,0 +1,32 @@
+#card{
+
+    margin: 0 auto;
+    margin-top:150px;
+}
+
+#c_text{
+    text-decoration: none;
+}
+
+
+@media (max-width:600px){
+
+    #main-div{
+
+
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+
+
+}
+
+#main-div{
+
+  animation-name: flip;
+  animation-duration: 0.6s; /* Faster duration */
+  animation-delay: 0.1s;    /* Slight delay */
+
+
+}

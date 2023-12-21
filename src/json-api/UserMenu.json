@@ -1,0 +1,93 @@
+[
+
+    {
+        
+        "id": 1,
+        "cat": "DASHBOARD",
+        "menus":[
+
+            {
+                "id":2,
+                "label":"Main",
+                "icon":"airplay",
+                "link":"modern",
+                "isDropDown":false
+                
+
+            },
+            {
+                "id":12,
+                "label" : "Slots",
+                "icon": "auto_stories",
+                "link":"booking-slots"
+
+            },
+           
+
+                   
+
+                    {
+                        "id":4,
+                        "label" : "All Bookings",
+                        "icon": "list",
+                        "link":"all-bookings"
+
+                    },
+                    {
+                        "id":6,
+                        "label" : "Pending",
+                        "icon": "pending",
+                        "link":"pending-bookings"
+
+                    },
+                    {
+                        "id":5,
+                        "label" :"Confirmed",
+                        "icon": "recommend",
+                        "link":"confirmed-bookings"
+        
+                    }
+
+
+
+        ]
+
+    },
+
+    {
+        
+        "id": 7,
+        "cat": "AUTHENTICATON",
+        "menus":[
+        
+            {
+                "id":15,
+                "label": "Profile",
+                "icon":"account_circle",
+                "link": "profileInfo"
+
+
+            },
+          
+            {
+                "id":9,
+                "label": "Logout",
+                "icon":"logout",
+                "link": "logout"
+
+
+            }
+
+        ]
+
+    }
+
+    
+
+
+
+
+
+
+
+]
